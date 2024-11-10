@@ -1,0 +1,16 @@
+[package]
+name = "rts_stockv3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+criterion = "0.5.1"
+amiquip = "0.4.2"
+serde = "1.0.203"
+serde_json = "1.0.117"
+rand = "0.8.5"
+chrono = "0.4.38"
+
+[[bench]]
+name = "my_bench"
+harness = false
